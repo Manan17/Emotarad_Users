@@ -29,5 +29,4 @@ db.models.User.hasMany(db.models.SecondayId, {
 });
 
 db.models.SecondayId.belongsTo(db.models.User);
-
 module.exports = db;
